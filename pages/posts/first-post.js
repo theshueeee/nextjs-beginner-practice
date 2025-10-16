@@ -13,7 +13,7 @@ export default function FirstPost() {
     <p>
         Hello, this is my first post! 
         I am excited to start my journey with Next.js!
-        <Link href="/more-info/introduction">More info</Link>
+        <Link href="/more-info/introduction">More details</Link>
     </p>
     </div>
     );
