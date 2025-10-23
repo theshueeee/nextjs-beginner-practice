@@ -1,8 +1,10 @@
 import Link from "next/link";
+import Layout from "../../components/layout";
 
 
 export default function FirstPost() {
     return (
+    <Layout>
     <div>
     <h1>
         First Post
@@ -16,5 +18,6 @@ export default function FirstPost() {
         <Link href="/more-info/introduction">More details</Link>
     </p>
     </div>
+    </Layout>
     );
 }
