@@ -1,11 +1,18 @@
 import Link from "next/link";
 import Layout from "../../components/layout";
+import Head from "next/head";
 
 
 export default function FirstPost() {
     return (
     <Layout>
     <div>
+
+    {/*Head component to set the title and meta description*/}
+    <Head>
+        <title>First Post</title>
+        <meta name="description" content="My first post in Next.js"/>
+    </Head>
     <h1>
         First Post
     </h1>
